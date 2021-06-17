@@ -14,10 +14,38 @@ const myPieChart = {
 };
 
 let cards = [
-    { name: "Earnings (Monthly)" },
-    { name: "Earnings (Annual)" },
-    { name: "Tasks" },
-    { name: "Pending Requests" }
+    {
+        name: "Earnings (Monthly)",
+        theme: "border-left-primary",
+        class: "text-primary",
+        valueClass: "mr-3",
+        value: "$40,000",
+        image: "fa-calendar"
+    },
+    {
+        name: "Earnings (Annual)",
+        theme: "border-left-success",
+        class: "text-success",
+        valueClass: "",
+        value: "$215,000",
+        image: "fa-dollar-sign"
+    },
+    {
+        name: "Tasks",
+        theme: "border-left-info",
+        class: "text-info",
+        valueClass: "",
+        value: "50%",
+        image: "fa-clipboard-list"
+    },
+    {
+        name: "Pending Requests",
+        theme: "border-left-warning",
+        class: "text-warning",
+        valueClass: "",
+        value: "18",
+        image: "fa-comments"
+    }
 ];
 
 class dashboard extends React.Component {

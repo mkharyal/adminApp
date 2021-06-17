@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "bootstrap/dist/css/bootstrap.css"
-import "./admin.css"
+import "./style/css/admin.css";
+import "./style/css/all.css";
 import SideBar from './sideBar/side-bar';
 import NavBar from './navBar/nav-bar';
-import Dashboard from './dashboard/dashboard'
+import Dashboard from './dashboard/dashboard';
 
 ReactDOM.render(
   <React.StrictMode>
