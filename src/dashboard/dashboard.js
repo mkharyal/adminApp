@@ -14,10 +14,10 @@ const myPieChart = {
 };
 
 let cards = [
-    "Earnings (Monthly)",
-    "Earnings (Annual)",
-    "Tasks",
-    "Pending Requests"
+    { name: "Earnings (Monthly)" },
+    { name: "Earnings (Annual)" },
+    { name: "Tasks" },
+    { name: "Pending Requests" }
 ];
 
 class dashboard extends React.Component {

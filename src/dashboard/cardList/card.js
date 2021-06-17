@@ -8,7 +8,7 @@ class Card extends React.Component {
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xs font-weight-bold text-uppercase mb-1">
-                                {this.props.name}
+                                {this.props.card.name}
                             </div>
                         </div>
                         <div class="col-auto">
